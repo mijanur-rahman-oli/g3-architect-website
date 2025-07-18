@@ -194,6 +194,7 @@ main>section {
 }
 
 #feaures-section-title {
+    font-size: 30px;
     border-left: 5px solid #FF900E;
     padding-left: 20px;
 }
@@ -216,8 +217,35 @@ main>section {
 }
 .features2{
     display: flex;
+    align-items: center;
+    margin: 150px 0px;
     gap: 130px;
+ 
 }
+
+
+
+
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+
+#exprience-year{
+font-size: 4rm;
+font-weight: 400;
+}
+
+.footer-design{
+    background-color: #FFF4E7;
+    margin: 130px 240px 130px 240px;
+    padding: 50px 250px 50px 250px;
+}
+
 
 /* responsive mediaquery */
 @media screen and (max-width: 576px) {
@@ -248,4 +276,11 @@ main>section {
     .our-features {
         margin-left: 20px;
     }
+    .features2{
+
+    }
+    #experience-badge{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    } 
 }
